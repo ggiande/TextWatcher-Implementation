@@ -26,8 +26,6 @@ References:
 
 
 ---
-Android Studio Canary Details
-    SdkVersion 30
-    
-Author: @ggiande
+Android Studio Canary Details: SdkVersion 30
+Author: Giancarlo Deleon 12/07/2020
 
