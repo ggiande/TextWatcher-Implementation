@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TextWatcherExample</string>
+    <string name="changing_input">Changing Input:</string>
+    <string name="start_typing">Start typing</string>
+    <string name="hi_gian">Hi There!</string>
+    <string name="EmptyTextInput">You Have Not typed anything</string>
+</resources>
