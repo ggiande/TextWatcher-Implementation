@@ -22,7 +22,7 @@ Example of the implementation:
 ![Implementation of TextWatcher](https://i.imgur.com/DadgEQl.png)
 
 References:
-[Google Documentation on TextWatcher](https://developer.android.com/reference/android/text/TextWatcher#afterTextChanged(android.text.Editable)
+[Google Documentation on TextWatcher](https://developer.android.com/reference/android/text/TextWatcher#afterTextChanged(android.text.Editable))
 
 
 ---
