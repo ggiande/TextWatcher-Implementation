@@ -9,8 +9,6 @@ import android.util.Log;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.util.concurrent.atomic.AtomicLong;
-
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     public EditText etInput;
@@ -28,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
     TextWatcher filterTextWatcher = new TextWatcher() {
         public void afterTextChanged(Editable s) {
             String text = etInput.getText().toString();
-            if (text != null) {
+            Log.i(TAG, etInput.getText().toString());
+            if (!text.equals("")) {
                 tvOutput.setText(text);
             } else {
                 tvOutput.setText(R.string.EmptyTextInput);
